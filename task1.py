@@ -7,7 +7,7 @@ def check_1(lst_obj):
     Алгоритм 3:
     Создать множество из списка
     Сложность: O(N).
-    """ 
+    """
     lst_to_set = set(lst_obj)  # O(len(...))
     return lst_to_set  # 1
 
@@ -53,5 +53,3 @@ for j in (50, 500, 1000, 5000, 1000):
 print(check_1(lst))
 print(check_2(lst))
 print(check_3(lst))
-
-
