@@ -1,7 +1,7 @@
 def get_min(num_list):               # O(N)
   min = num_list[0]                  # O(1)
   for i in range(len(num_list) - 1): # O(N)
-    if min > num_list[i+1]:          # O(1)
+    if min > num_list[i+1]:          # O(1) 
       min = num_list[i+1]            # O(1)
   return(min)
 

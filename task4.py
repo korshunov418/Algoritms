@@ -36,7 +36,7 @@ print(statusCode[check_auth("user_dogin1", "UserPassw0rd")])
 
 
 # Способ 2. O(N)
-def check_auth2(login, password): 
+def check_auth2(login, password):  
   for val in usersBD: #O(N)
     if(val["login"] == login and val["password"] == password and val["active"] == 1): #O(1)
       return 101             #O(1)

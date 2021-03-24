@@ -12,7 +12,7 @@ companis_list = list(companies.items())
 values_list = list(companies.values())
 for i in range(len(values_list) - 1):
   firstTree = 0
-  for j in range(len(values_list) - 1):
+  for j in range(len(values_list) - 1): 
     if (values_list[i] < values_list[j]): # я посчитал сколько раз i элемент меньше остальных, если он меньше остальных 0 раз, то он самый большой, получается кто набрал 0,1,2 тот в ТОП 3
       firstTree += 1
   if(firstTree < 3):
