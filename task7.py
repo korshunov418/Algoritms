@@ -6,7 +6,7 @@ class DequeClass:
         return self.elems == []
 
     def add_to_front(self, elem):
-        self.elems.append(elem)
+        self.elems.append(elem) 
 
     def add_to_rear(self, elem):
         self.elems.insert(0, elem)
